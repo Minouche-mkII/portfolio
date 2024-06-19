@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        <title>Compétences</title>
+    </head>
+    <body>
+        <script src="script/script.js"></script>
+        <header>
+            <p>Elouan Rival</p>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="competences.html">Compétences</a>
+                <a href="realisations_informatiques.html">Réalisations informatiques</a>
+                <a href="realisations_artistiques.html">Réalisations artistiques</a>
+            </nav>
+            <div id="liens">
+                <a href="https://github.com/Winluy"><img src="res/github.png"></a>
+                <a href="https://www.instagram.com/elo_rival/"><img src="res/insta.png"></a>
+            </div>
+        </header>
+        <main>
+            <h1>Mes compétences</h1>
+            
+            <section class="tableau">
+                <div>
+                    <a onclick="openModal('javamodal')">
+                        <img src="res/jave.webp", alt="logo_java">
+                        <h2>Java</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('kotlinmodal')">
+                        <img src="res/kotlin.png", alt="logo_kotlin">
+                        <h2>Kotlin</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('cmodal')">
+                        <img src="res/c.png", alt="logo_c">
+                        <h2>C</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('csmodal')">
+                        <img src="res/cs.png", alt="logo_csharp">
+                        <h2>C#</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('htmlmodal')">
+                        <img src="res/html5.png", alt="logo_html5">
+                        <h2>HTML</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('cssmodal')">
+                        <img src="res/css.png", alt="logo_css">
+                        <h2>CSS</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('jsmodal')">
+                        <img src="res/javascript.png", alt="logo_js">
+                        <h2>JavaScript</h2>                    
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('phpmodal')">
+                        <img src="res/php.png", alt="logo_php">
+                        <h2>PHP</h2>
+                    </a>
+                </div>    
+                            
+                <div>
+                    <a onclick="openModal('pymodal')">
+                        <img src="res/python.png", alt="logo_python">
+                        <h2>Python</h2>
+                    </a>
+                </div>
+            </section>
+
+            <section>
+                <div id="javamodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Java</h2>
+                            <button onclick="closeModal('javamodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le java</p>
+                    </div>
+                </div>
+
+                <div id="kotlinmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Kotlin</h2>
+                            <button onclick="closeModal('kotlinmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le kotlin</p>
+                    </div>
+                </div>
+                <div id="cmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>C</h2>
+                            <button onclick="closeModal('cmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le c</p>
+                    </div>
+                </div>
+                <div id="csmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>C#</h2>
+                            <button onclick="closeModal('csmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le C#</p>
+                    </div>
+                </div>
+                <div id="htmlmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>HTML</h2>
+                            <button onclick="closeModal('htmlmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le html</p>
+                    </div>
+                </div>
+                <div id="cssmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>CSS</h2>
+                            <button onclick="closeModal('cssmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le css</p>
+                    </div>
+                </div>
+                <div id="jsmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>JavaScript</h2>
+                            <button onclick="closeModal('jsmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le JS</p>
+                    </div>
+                </div>
+                <div id="phpmodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>PHP</h2>
+                            <button onclick="closeModal('phpmodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le php</p>
+                    </div>
+                </div>
+                <div id="pymodal" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Python</h2>
+                            <button onclick="closeModal('pymodal')" class="neonbutton">X</button>
+                        </div>
+                        <p>J'aime le Python</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

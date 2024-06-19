@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        <title> réalisations informatiques </title>
+    </head>
+    <body>
+        <script src="script/script.js"></script>
+        <header>
+            <p>Elouan Rival</p>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="competences.html">Compétences</a>
+                <a href="realisations_informatiques.html">Réalisations informatiques</a>
+                <a href="realisations_artistiques.html">Réalisations artistiques</a>
+            </nav>
+            <div id="liens">
+                <a href="https://github.com/Winluy"><img src="res/github.png"></a>
+                <a href="https://www.instagram.com/elo_rival/"><img src="res/insta.png"></a>
+            </div>
+        </header>
+        <main>
+            <h1>Réalisations Informatiques</h1>
+
+            <section class="filltab tabprojet">
+                <div class="ttier" onclick="openModal('douzecm')">
+                    <img src = "res/projects/logo12cm3.png">
+                    <h2>12cm3<h2>
+                </div>
+                <div onclick="openModal('exosolfege')">
+                    <img src="res/projects/musique1.png">
+                    <h2>Exercices de solfège</h2>
+                </div>
+                <div class="dtier" onclick="openModal('pathfinder')">
+                    <img src="res/projects/graph.png">
+                    <h2>Pathfinder</h2>
+                </div>
+                <div class="dtier" onclick="openModal('blog')">
+                    <img src="res/projects/webblog.png">
+                    <h2>Weblog42</h2>
+                </div>
+                <div onclick="openModal('parking')">
+                    <img src="res/projects/parking.jpg">
+                    <h2>Parkings de Lyon</h2>
+                </div>
+            </section>
+
+            <section>
+                <div id="douzecm" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>12cm3</h2>
+                            <button onclick="closeModal('douzecm')" class="neonbutton">X</button>
+                        </div>
+                        <p>12cm3 est un jeux-vidéo créé en java dans le cadre d'un projet de cours. C'est un jeu de rally compétitif avec enregistrement des chrono sur un serveur.</p>
+                        <video width="700" controls>
+                            <source src="res/projects/Timeline_3.mp4">
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <p>Le projet a été fait en coopération avec Rayan Tail, Lomé Bordes et Mael Ferry</p>
+                        <img src="res/projects/loader.gif">
+                        <img src="res/projects/gameplay.png">
+                        <img src="res/projects/interface.png">
+                        <img src="res/projects/logotext.png">
+                    </div>
+                </div>
+                <div id="exosolfege" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Exercice de Solfège</h2>
+                            <button onclick="closeModal('exosolfege')" class="neonbutton">X</button>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="pathfinder" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Pathfinder</h2>
+                            <button onclick="closeModal('pathfinder')" class="neonbutton">X</button>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="blog" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Weblog42</h2>
+                            <button onclick="closeModal('blog')" class="neonbutton">X</button>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="parking" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Parkings de lyon</h2>
+                            <button onclick="closeModal('parking')" class="neonbutton">X</button>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
