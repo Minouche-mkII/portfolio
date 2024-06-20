@@ -24,7 +24,6 @@
         </header>
         <main>
             <h1>Mes compétences</h1>
-            
             <section class="tableau">
                 <div>
                     <a onclick="openModal('javamodal')">
@@ -83,6 +82,42 @@
                 </div>
             </section>
 
+            <h1>Compétences aquises à l'IUT</h1>
+
+            <section class="tableau">
+                <div>
+                    <a onclick="openModal('c1')">
+                        <h2>Réaliser des applications</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('c2')">
+                        <h2>Optimiser des applications</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('c3')">
+                        <h2>Gérer les données de l'information</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('c4')">
+                        <h2>Travailler dans une équipe informatique</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('c5')">
+                        <h2>Administrer des systèmes informatiques communicants complexes</h2>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="openModal('c6')">
+                        <h2>Conduire un projet</h2>
+                    </a>
+                </div>
+                
+            </section>
+
             <section>
                 <div id="javamodal" class="hidden modal">
                     <div class="modal-content">
@@ -93,7 +128,6 @@
                         <p>Java est ma technologie de prédilection, j'ai beaucoup d'affinité avec la programmation orientée objet et java est le langage que j'ai le plus utilisé de loin. Mes projets java les plus marquants étant <span class="highlight">12cm2</span> et <span class="highlight">pathfinder</span> (voir mes <a href="realisations_informatiques.html">réalisations informatiques</a>)</p>
                     </div>
                 </div>
-
                 <div id="kotlinmodal" class="hidden modal">
                     <div class="modal-content">
                         <div>
@@ -166,6 +200,99 @@
                         <p>Le python est un langage que j'ai beaucoup manipulé depuis le lycée, principalement pour faire des programmes en console, comme le projet <span class="highlight">Exercices de solfèges</span></p>
                     </div>
                 </div>
+
+
+                <div id="c1" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Réaliser un développement d'applications</h2>
+                            <button onclick="closeModal('c1')" class="neonbutton">X</button>
+                        </div>
+                        <ul>
+                            <li>en expliquant et communiquant l'avancée au client et aux utilisateurs</li>
+                            <li>en précisant et en respectant les besoins décrits par le client</li>
+                            <li>en appliquant les principes algorithmiques</li>
+                            <li>en veillant à la qualité du code et à sa documentation</li>
+                            <li>en respectant la législation, les normes professionnelles et les enjeux sociétaux</li>
+                            <li>en choisissant les ressources techniques appropriées</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="c2" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Optimiser des applications</h2>
+                            <button onclick="closeModal('c2')" class="neonbutton">X</button>
+                        </div>
+                        <ul>
+                            <li>en formalisant et modélisant des situations complexes</li>
+                            <li>en recensant les algorithmes et les structures de données usuels</li>
+                            <li>en s'appuyant sur des schémas de raisonnement</li>
+                            <li>en justifiant les choix et validant les résultats</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="c3" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Gérer les données de l'information</h2>
+                            <button onclick="closeModal('c3')" class="neonbutton">X</button>
+                        </div>
+                        <ul>
+                            <li>en maîtrisant l'architecture des systèmes et des réseaux</li>
+                            <li>en sécurisant le système d'information</li>
+                            <li>en appliquant les obligations légales, les normes en vigueur et les bonnes pratiques</li>
+                            <li>en mettant en œuvre les mesures correctives adaptées à la nature des incidents identifiés</li>
+                            <li>en respectant les contraintes de performances, de coûts et d'efficacité énergétique</li>
+                            <li>en assurant la pérennité des données et des logiciels</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="c4" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Travailler dans une équipe informatique</h2>
+                            <button onclick="closeModal('c4')" class="neonbutton">X</button>
+                        </div>
+                        <ul>
+                            <li>en respectant les réglementations sur le respect de la vie privée et la protection des données personnelles</li>
+                            <li>en respectant des enjeux économiques, sociétaux et écologiques de l'utilisation et du stockage des données, ainsi que des différentes infrastructures (datacenters, cloud...)</li>
+                            <li>en s'appuyant sur des bases mathématiques solides (par exemple logique et statistiques)</li>
+                            <li>en considérant les modèles de données utilisés dans les développements technologiques</li>
+                            <li>en assurant la cohérence et la qualité</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="c5" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Administrer des systèmes informatiques communicants complexes</h2>
+                            <button onclick="closeModal('c5')" class="neonbutton">X</button>
+                        </div>
+                        <ul>
+                            <li>en identifiant les problématiques du client et les enjeux économiques de l'organisation</li>
+                            <li>en adoptant une démarche proactive, créative et critique</li>
+                            <li>en respectant les règles juridiques et les normes en vigueur</li>
+                            <li>en communiquant efficacement avec les différents acteurs d'un projet</li>
+                            <li>en sensibilisant à une gestion éthique, responsable, durable et interculturelle</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="c6" class="hidden modal">
+                    <div class="modal-content">
+                        <div>
+                            <h2>Conduire un projet</h2>
+                            <button onclick="closeModal('c6')" class="neonbutton">X</button>
+                        </div>
+                        <ul>
+                            <li>en inscrivant sa démarche au sein d'une équipe pluridisciplinaire</li>
+                            <li>en accompagnant la mise en œuvre des évolutions informatiques</li>
+                            <li>en veillant au respect des contraintes réglementaires et législatives</li>
+                            <li>en développant une communication efficace et collaborative</li>
+                        </ul>
+                    </div>
+                </div>
+
             </section>
         </main>
     </body>
